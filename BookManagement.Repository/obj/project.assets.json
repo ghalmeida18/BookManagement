@@ -216,6 +216,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "BookManagement.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BookManagement.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookManagement.Model.dll": {}
+        }
       }
     }
   },
@@ -554,10 +564,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BookManagement.Model/1.0.0": {
+      "type": "project",
+      "path": "../BookManagement.Model/BookManagement.Model.csproj",
+      "msbuildProject": "../BookManagement.Model/BookManagement.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookManagement.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.9"
     ]
   },
@@ -587,7 +603,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
