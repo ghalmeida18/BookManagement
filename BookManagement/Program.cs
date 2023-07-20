@@ -1,5 +1,7 @@
 using BookManagement.Model.Interfaces;
 using BookManagement.Repository;
+using BookManagement.Repository.Context;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 //injection
 builder.Services.AddTransient<IBookRepository, BookRepository>();
+builder.Services.AddDbContext<BookContext>(options => options.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
 
 var app = builder.Build();
 
