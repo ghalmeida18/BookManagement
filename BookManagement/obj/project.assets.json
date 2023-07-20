@@ -1247,6 +1247,19 @@
           }
         }
       },
+      "BookManagement.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookManagement.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookManagement.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookManagement.Business.dll": {}
+        }
+      },
       "BookManagement.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1262,7 +1275,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BookManagement.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.9"
+          "Microsoft.EntityFrameworkCore": "7.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9"
         },
         "compile": {
           "bin/placeholder/BookManagement.Repository.dll": {}
@@ -3748,6 +3762,11 @@
         "version.txt"
       ]
     },
+    "BookManagement.Business/1.0.0": {
+      "type": "project",
+      "path": "../BookManagement.Business/BookManagement.Business.csproj",
+      "msbuildProject": "../BookManagement.Business/BookManagement.Business.csproj"
+    },
     "BookManagement.Model/1.0.0": {
       "type": "project",
       "path": "../BookManagement.Model/BookManagement.Model.csproj",
@@ -3761,6 +3780,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BookManagement.Business >= 1.0.0",
       "BookManagement.Repository >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
@@ -3797,6 +3817,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj"
+            },
             "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj": {
               "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj"
             }

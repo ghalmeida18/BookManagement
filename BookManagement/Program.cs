@@ -1,3 +1,4 @@
+using BookManagement.Business;
 using BookManagement.Model.Interfaces;
 using BookManagement.Repository;
 using BookManagement.Repository.Context;
@@ -14,7 +15,8 @@ builder.Services.AddSwaggerGen();
 
 //injection
 builder.Services.AddTransient<IBookRepository, BookRepository>();
-builder.Services.AddDbContext<BookContext>(options => options.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;"));
+builder.Services.AddTransient<IBookBusiness, BookBusiness>();
+builder.Services.AddDbContext<BookContext>(options => options.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;TrustServerCertificate=True;"));
 
 var app = builder.Build();
 

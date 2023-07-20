@@ -1,11 +1,12 @@
-﻿namespace BookManagement.Model.Interfaces
+﻿
+namespace BookManagement.Model.Interfaces
 {
-    public interface IBookRepository
+    public interface IBookBusiness
     {
         public void Insert(Book book);
         public List<Book> GetAll();
         public Book Get(Guid id);
         public void Delete(Guid id);
-        public Book Update(Book book);
+        public void Update(Book book);
     }
 }
