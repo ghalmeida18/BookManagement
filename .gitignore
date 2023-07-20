@@ -5,3 +5,5 @@
 *.testlog
 /.vs/BookManagement
 /BookManagement/obj/Debug/net6.0
+/BookManagement/bin/Debug/net6.0
+/BookManagement.Model/bin/Debug/net6.0
