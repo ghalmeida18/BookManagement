@@ -25,9 +25,9 @@ namespace BookManagement.Repository
             return _context.Books.ToList();
         }
 
-        public Book Get(Guid id)
+        public Book? Get(Guid id)
         {
-            return _context.Books.First(b => b.Id.Equals(id));
+            return _context.Books.FirstOrDefault(b => b.Id.Equals(id));
         }
 
         public void Delete(Guid id)
@@ -47,6 +47,11 @@ namespace BookManagement.Repository
             _context.SaveChanges();
 
             return book;
+        }
+
+        public bool CheckIfInserted(Guid id)
+        {
+            return _context.Books.Any(b => b.Id.Equals(id));
         }
     }
 }
