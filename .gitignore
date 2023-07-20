@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+*.testlog
+/.vs/BookManagement
+/BookManagement/obj/Debug/net6.0
