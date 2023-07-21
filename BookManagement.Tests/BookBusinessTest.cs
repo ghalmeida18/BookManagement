@@ -3,6 +3,7 @@ using Xunit;
 using Moq;
 using BookManagement.Business;
 using BookManagement.Model;
+using BookManagement.Model.Exceptions;
 
 namespace BookManagement.Tests
 {
@@ -81,6 +82,83 @@ namespace BookManagement.Tests
 
             Assert.NotNull(bookObtained);
             Assert.NotEqual(Guid.Empty, bookObtained.Id);
+        }
+
+        [Fact]
+        public void BookBusiness_Insert_InvalidBook_NOK()
+        {
+            Book book = GenerateDefaultBook();
+
+            book.Year = 0;
+
+            BookBusiness business = new(_bookRepository.Object);
+
+            Assert.Throws<InvalidBookException>(() => business.Insert(book));
+        }
+
+        [Fact]
+        public void BookBusiness_Get_InvalidBook_NOK()
+        {
+            Book book = GenerateDefaultBook();
+
+            _bookRepository.Setup(s => s.Get(It.IsAny<Guid>())).Returns((Book?)null);
+
+            BookBusiness business = new(_bookRepository.Object);
+
+            Assert.Throws<InvalidBookException>(() => business.Get(Guid.NewGuid()));
+
+        }
+
+        [Fact]
+        public void BookBusiness_Delete_InvalidId_NOK()
+        {
+            BookBusiness business = new(_bookRepository.Object);
+            Assert.Throws<InvalidBookException>(() => business.Delete(Guid.Empty));
+        }
+
+        [Fact]
+        public void BookBusiness_Delete_InvalidBook_NOK()
+        {
+            BookBusiness business = new(_bookRepository.Object);
+
+            _bookRepository.Setup(s => s.CheckIfInserted(It.IsAny<Guid>())).Returns(false);
+
+            Assert.Throws<InvalidBookException>(() => business.Delete(Guid.Empty));
+        }
+
+        [Fact]
+        public void BookBusiness_Update_InvalidId_NOK()
+        {
+            Book book = GenerateDefaultBook();
+            book.Id = Guid.Empty;
+
+            BookBusiness business = new(_bookRepository.Object);
+
+            Assert.Throws<InvalidBookException>(() => business.Update(book));
+
+        }
+
+        [Fact]
+        public void BookBusiness_Update_BookNotExists_NOK()
+        {
+            Book book = GenerateDefaultBook();
+
+            _bookRepository.Setup(s => s.CheckIfInserted(It.IsAny<Guid>())).Returns(false);
+            BookBusiness business = new(_bookRepository.Object);
+
+            Assert.Throws<InvalidBookException>(() => business.Update(book));
+        }
+
+        [Fact]
+        public void BookBusiness_Update_InvalidBook_NOK()
+        {
+            Book book = GenerateDefaultBook();
+            book.Author = "";
+
+            _bookRepository.Setup(s => s.CheckIfInserted(It.IsAny<Guid>())).Returns(true);
+            BookBusiness business = new(_bookRepository.Object);
+
+            Assert.Throws<InvalidBookException>(() => business.Update(book));
         }
 
         #region Default Values
