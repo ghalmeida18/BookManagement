@@ -27,7 +27,5 @@ namespace BookManagement.Business
 
             return await _coverRepository.GetImage(id);
         }
-
-
     }
 }
