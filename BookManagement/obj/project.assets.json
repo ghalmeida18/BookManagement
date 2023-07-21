@@ -3921,11 +3921,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj",
       "projectName": "BookManagement",
-      "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj",
+      "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\obj\\",
+      "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3943,11 +3943,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj"
+            "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj"
             },
-            "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj"
+            "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj"
             }
           }
         }

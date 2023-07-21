@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj": {}
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj",
         "projectName": "BookManagement.Business",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
         "projectName": "BookManagement.Model",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj",
         "projectName": "BookManagement.Repository",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj"
               }
             }
           }
@@ -219,14 +219,14 @@
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj",
         "projectName": "BookManagement",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\BookManagement.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\BookManagement.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,11 +244,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj"
               },
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Repository\\BookManagement.Repository.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Repository\\BookManagement.Repository.csproj"
               }
             }
           }

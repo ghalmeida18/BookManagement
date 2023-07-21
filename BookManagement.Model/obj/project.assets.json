@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
       "projectName": "BookManagement.Model",
-      "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+      "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
       "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\obj\\",
+      "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",

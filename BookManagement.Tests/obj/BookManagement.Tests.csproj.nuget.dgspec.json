@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Tests\\BookManagement.Tests.csproj": {}
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Tests\\BookManagement.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj",
         "projectName": "BookManagement.Business",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
         "projectName": "BookManagement.Model",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Tests\\BookManagement.Tests.csproj": {
+    "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Tests\\BookManagement.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Tests\\BookManagement.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Tests\\BookManagement.Tests.csproj",
         "projectName": "BookManagement.Tests",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Tests\\BookManagement.Tests.csproj",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Tests\\BookManagement.Tests.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Tests\\obj\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Business\\BookManagement.Business.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Business\\BookManagement.Business.csproj"
               },
-              "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\Gustavo\\SoftDesign\\BookManagement\\BookManagement.Model\\BookManagement.Model.csproj"
+              "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\gusta\\Desktop\\Nova pasta\\BookManagement.Model\\BookManagement.Model.csproj"
               }
             }
           }
