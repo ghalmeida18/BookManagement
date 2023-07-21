@@ -15,7 +15,7 @@ namespace BookManagement.Business
             _bookRepository = bookRepository;
         }
 
-        public void Insert(Book book)
+        public Book Insert(Book book)
         {
             var result = new BookValidator().Validate(book);
 
@@ -23,6 +23,8 @@ namespace BookManagement.Business
                 throw new InvalidBookException($"Can't create new register: {string.Join("," , result.Errors)}");
 
             _bookRepository.Insert(book);
+
+            return book;
         }
 
         public List<Book> GetAll()
@@ -41,7 +43,7 @@ namespace BookManagement.Business
             
         }
 
-        public void Delete(Guid id)
+        public bool Delete(Guid id)
         {
             if (id.Equals(Guid.Empty))
                 throw new InvalidBookException("Please, inform a valid Id.");
@@ -50,16 +52,20 @@ namespace BookManagement.Business
                 throw new InvalidBookException($"The book with id {id} was not found. Please, try again.");
 
             _bookRepository.Delete(id);
+
+            return true;
         }
 
-        public void Update(Book book)
+        public bool Update(Book book)
         {
             if(book.Id.Equals(Guid.Empty) 
-                || !_bookRepository.CheckIfInserted(book.Id)
-                || !new BookValidator().Validate(book).IsValid)
+                || ! _bookRepository.CheckIfInserted(book.Id)
+                || ! new BookValidator().Validate(book).IsValid)
                 throw new InvalidBookException("Please, inform a valid book.");
 
             _bookRepository.Update(book);
+
+            return true;
         }
     }
 }

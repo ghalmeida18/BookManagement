@@ -3,10 +3,10 @@ namespace BookManagement.Model.Interfaces
 {
     public interface IBookBusiness
     {
-        public void Insert(Book book);
+        public Book Insert(Book book);
         public List<Book> GetAll();
         public Book Get(Guid id);
-        public void Delete(Guid id);
-        public void Update(Book book);
+        public bool Delete(Guid id);
+        public bool Update(Book book);
     }
 }
