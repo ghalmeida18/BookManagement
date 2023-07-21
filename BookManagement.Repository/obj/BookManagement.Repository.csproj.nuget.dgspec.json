@@ -105,6 +105,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.200.2, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.200.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.9, )"

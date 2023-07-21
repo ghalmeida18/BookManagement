@@ -16,6 +16,10 @@ builder.Services.AddSwaggerGen();
 //injection
 builder.Services.AddTransient<IBookRepository, BookRepository>();
 builder.Services.AddTransient<IBookBusiness, BookBusiness>();
+builder.Services.AddTransient<ICoverRepository, CoverRepository>();
+builder.Services.AddTransient<ICoverBusiness, CoverBusiness>();
+
+
 builder.Services.AddDbContext<BookContext>(options => options.UseSqlServer("Server=localhost;Database=master;Trusted_Connection=True;TrustServerCertificate=True;"));
 
 var app = builder.Build();
